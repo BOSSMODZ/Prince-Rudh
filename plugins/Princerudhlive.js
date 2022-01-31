@@ -9,38 +9,21 @@ if (Config.WORKTYPE == 'private') {
 Asena.addCommand({pattern: 'aliv', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
     var r_text = new Array ();    
-r_text[0] = "The greatest glory in living lies not in never falling, but in rising every time we fall.\n           -Nelson Mandela";
-r_text[1] = "The way to get started is to quit talking and begin doing.\n           -Walt Disney";
-r_text[2] = "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.\n        -Steve Jobs";
-r_text[3] = "If life were predictable it would cease to be life, and be without flavor.\n        -Eleanor Roosevelt";
-r_text[4] = "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.\n        -Oprah Winfrey";
-r_text[5] = "If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.\n        -James Cameron";
-r_text[6] = "Spread love everywhere you go. Let no one ever come to you without leaving happier.\n        -Mother Teresa";
-r_text[7] = "When you reach the end of your rope, tie a knot in it and hang on.\n        -Franklin D. Roosevelt";
-r_text[8] = "Always remember that you are absolutely unique. Just like everyone else.\n        -Margaret Mead";
-r_text[9] = "Don't judge each day by the harvest you reap but by the seeds that you plant.\n        -Robert Louis Stevenson";
-r_text[10] = "The future belongs to those who believe in the beauty of their dreams.\n        -Eleanor Roosevelt";
-r_text[11] = "The best and most beautiful things in the world cannot be seen or even touched — they must be felt with the heart.\n        -Helen Keller";
-r_text[12] = "It is during our darkest moments that we must focus to see the light.\n        -Aristotle";
-r_text[13] = "Do not go where the path may lead, go instead where there is no path and leave a trail.\n          -Ralph Waldo Emerson";
-r_text[14] = "You will face many defeats in life, but never let yourself be defeated.\n        -Maya Angelou";
-r_text[15] = "The greatest glory in living lies not in never falling, but in rising every time we fall.\n        -Nelson Mandela";
-r_text[16] = "In the end, it's not the years in your life that count. It's the life in your years.\n        -Abraham Lincoln";
-r_text[17] = "Never let the fear of striking out keep you from playing the game.\n        -Babe Ruth";
-r_text[18] = "Life is either a daring adventure or nothing at all.\n        -Helen Keller";
-r_text[19] = "Many of life's failures are people who did not realize how close they were to success when they gave up.\n        -Thomas A. Edison";
-r_text[20] = "The secret of success is to do the common thing uncommonly well. -John D. Rockefeller Jr.";
-r_text[21] = "Keep smiling, because life is a beautiful thing and there's so much to smile about.\n           -Marilyn Monroe";
-r_text[22] = "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.\n         -Dr. Seuss";
-r_text[23] = "Life is made of ever so many partings welded together.\n        -Charles Dickens";
-r_text[24] = "Success is not final; failure is not fatal: It is the courage to continue that counts.\n         -Winston S. Churchill";
-r_text[25] = "The real test is not whether you avoid this failure, because you won't. It's whether you let it harden or shame you into inaction, or whether you learn from it; whether you choose to persevere.\n        -Barack Obama";
-r_text[26] = "The only person you are destined to become is the person you decide to be.\n        -Ralph Waldo Emerson";
-r_text[27] = "When we strive to become better than we are, everything around us becomes better too.\n       -Paulo Coelho";
-r_text[28] = "There are three things you can do with your life: You can waste it, you can spend it, or you can invest it. The best use of your life is to invest it in something that will last longer than your time on Earth.\n       -Rick Warren";
-r_text[29] = "You only pass through this life once, you don't come back for an encore.\n       -Elvis Presley";
-r_text[30] = "motivate cheyaan aarkum kayyum ath cheyth kaanikkaaana paad.\n       -PrinceRudh";    
-var i = Math.floor(31*Math.random())
+r_text[0] = "•°✪⃝മരണം വരെ കുടെ കണ്ണും എന്ന് പറഞ്ഞവർ ഇപ്പെꪆ എന്റെ മരണത്ത᭄ന് വേണ്ട᭄ കꪆത്ത᭄ര᭄ക്കുന്നു  ⃟★⃪͢＿🍃࿐⃝ ➢";
+r_text[1] = "⏤͟͟͞͞✯✮⃝➻❥ ആത്മꪆർത്ഥമꪆയ᭄ നമ്മളെ സ്നേഹ᭄ക്കꪆൻ ഒരꪆൾ ഉണ്ടꪆയꪆൽ...♥️🌎😘 അത് ആയ᭄ര᭄ക്കും ജീവ᭄തത്ത᭄ലെ ഏറ്റവും വല᭄യ ഭꪆഗ്യം♥️🖇️🔐";
+r_text[2] = "⋆⏤͟͟͞͞✪⃝🍃സ്നേഹ᭄ക്കꪆ൵ അറിയꪆം സ്നേഹം അഭ᭄നയ᭄ക്കാ൵ അറയ᭄ല്ല ച᭄ലപ്പോ അതꪆയര᭄ക്കും എന്റെ ഏറ്റവും വല᭄യ പരꪆജയവും🕊️🍃࿐⃝ ➢";
+r_text[3] = "꧁കൂട്ടമꪆയ᭄ ന᭄ന്ന് തകർക്കꪆ൵ ആണ് ഉദ്ദേശ൭മക᭄ൽ...ഒറ്റക് ന᭄ന്ന് ൭പꪆരുതꪆ൵ ത൭൬യꪆണ്  എ൭ന്റ ത്᭄രുമꪆന....꧂😼";
+r_text[4] = "⏤͟͟͞͞🍃🐲☘️_എന᭄ക്ക് ച᭄ര᭄ക്കꪆൻ കഴ᭄യുന്ന  കꪆലത്തോളം  എന്റെ പരꪆജയം★᭄ꦿ᭄ꦿ ആസ്വദ᭄ക്കꪆൻ നിങ്ങൾക്ക് കഴയ᭄ല്ല 🇦🇱⃝ 🇦🇴⏤͟͟͞͞";
+r_text[5] = "۝⃝⃤നീ കെꪆലവ᭄ള᭄ മുഴക്ക᭄  പേꪆര᭄ന് ഇറങ്ങുമ്പെꪆൾ ന᭄ന്റെ രക്തത്ത᭄ൽ എന്റെ നꪆമം കുറ᭄ക്കꪆൻ ന᭄ന്റെ എത᭄രꪆള᭄ ആയ᭄ ഞꪆൻ ഉണ്ടꪆവും "; 
+r_text[6] = "♥︎വ᭄ടാതെ  ന᭄ മുറുകെ  പ᭄ട᭄ക്കുമെങ്ക᭄ൽ  വ᭄ട്ടു പോകാതെ ഞാൻ  കൂടെ ഉണ്ടാവും ന᭄ൻ ന᭄ഴലുപോലെ  മണ്ണോടു  ചേരും വരെ✪⃝🤍"; 
+r_text[7] = "❝ 🙂🌿തന᭄ച്ചꪆക്ക᭄ പോയത᭄ൽ സങ്കടമ᭄ല്ല.. മനസ്സ᭄ലꪆക്കꪆതെ പോയത᭄ലꪆണ് വ᭄ഷമം...🍂❞★＿❀🥲💯"; 
+r_text[8] = "★ദേവയുക്തം ൭൭പശച്യം യഥꪆ രേꪆഗ്യꪆയ കൽപ്പ൭ത സചയ᭄വ വ᭄ഷജꪆംശ്രേഷ്‌ടേꪆ യേꪆഗേദ്യേꪆയ ꪶപമേꪆജ൭യ........★🐲‼️ 🤍🍷_*mass*_"; 
+r_text[9] = "*എന᭄ക്ക᭄ട്ടു പണ᭄യꪆൻ വരുമ്പോ അത് നന്നꪆയ᭄ട്ട് 💯 ആലോജ᭄ച്ച᭄ട്ടു വേണം  കꪆരണം എന്ത് ക᭄ട്ട᭄യാലും അതു ത᭄ര᭄ച്ചു കൊടുത്ത ശീലം ക᭄ട്ട᭄യത᭄ന്റെ ഇരട്ട᭄തരു"; 
+r_text[10] = "_നꪆ൭ള_ഞꪆന᭄_ഭൂമ᭄യ᭄ൽ ഇ൭ല്ലങ്ക᭄ലും_നീ_അറ᭄യുക. . . ഈ_ഭൂമ᭄യ᭄ൽ_ഞꪆ൵_ന᭄ന്നേꪆളം_മ൭റ്റꪆന്ന᭄൭നയും_സ്നേഹ᭄ച്ച᭄ട്ട᭄ല്ല★..🍃🌸🤍."; 
+r_text[11] = "ജയ᭄ച്ചേ തീരു എന്ന വꪆശ᭄൭യꪆന്നും ഇല്ല 😚 പക്ഷെ  തോൽപ്പ᭄ച്ചേ തീരു എന്ന് വꪆശ᭄ പ᭄ട᭄ക്കുന്നവർക്ക് മുന്ന᭄൭ലꪆന്ന് ജയ᭄ച്ചു കാണിച്ചിരിക്കും ﮩ٨ـﮩﮩ٨ـ♡ﮩ٨"; 
+r_text[12] = "🌿ആരു൭ടയുംകണ്ണ്..ന᭄റച്ച്  ഒന്നും സ്വന്തം അക᭄ട്ട᭄ല്ല😇🕊️ സ്വന്തം കണ്ണ് ♪ ന᭄റച്ച്  എല്ലꪆഠ വ᭄ട്ടു..൭കꪆടുത്ത᭄൭ട ഒള്ളു🍃💔"; 
+r_text[13] = "✦҈͜͡➳✮⃝ആയ᭄രം പൂക്കൾക്ക᭄ടയ᭄ൽ നിന്നും ഞꪆനെꪆരു പൂവ᭄നെ ത᭄രഞ്ഞെടുത്തു അത് ഇന᭄ വാട᭄യാലും കൊഴ᭄ഞ്ഞാലും എന്റെ മനസ്സ് മറ്റൊന്ന᭄നെയും ആഗ്രഹ᭄ക്ക᭄ല്ല"; 
+var i = Math.floor(14*Math.random())
 
 await message.sendMessage(r_text[i]);
 
@@ -52,40 +35,24 @@ else if (Config.WORKTYPE == 'public') {
 Asena.addCommand({pattern: 'aliv', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
     var r_text = new Array ();    
-r_text[0] = "The greatest glory in living lies not in never falling, but in rising every time we fall.\n           -Nelson Mandela";
-r_text[1] = "The way to get started is to quit talking and begin doing.\n           -Walt Disney";
-r_text[2] = "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.\n        -Steve Jobs";
-r_text[3] = "If life were predictable it would cease to be life, and be without flavor.\n        -Eleanor Roosevelt";
-r_text[4] = "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.\n        -Oprah Winfrey";
-r_text[5] = "If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.\n        -James Cameron";
-r_text[6] = "Spread love everywhere you go. Let no one ever come to you without leaving happier.\n        -Mother Teresa";
-r_text[7] = "When you reach the end of your rope, tie a knot in it and hang on.\n        -Franklin D. Roosevelt";
-r_text[8] = "Always remember that you are absolutely unique. Just like everyone else.\n        -Margaret Mead";
-r_text[9] = "Don't judge each day by the harvest you reap but by the seeds that you plant.\n        -Robert Louis Stevenson";
-r_text[10] = "The future belongs to those who believe in the beauty of their dreams.\n        -Eleanor Roosevelt";
-r_text[11] = "The best and most beautiful things in the world cannot be seen or even touched — they must be felt with the heart.\n        -Helen Keller";
-r_text[12] = "It is during our darkest moments that we must focus to see the light.\n        -Aristotle";
-r_text[13] = "Do not go where the path may lead, go instead where there is no path and leave a trail.\n          -Ralph Waldo Emerson";
-r_text[14] = "You will face many defeats in life, but never let yourself be defeated.\n        -Maya Angelou";
-r_text[15] = "The greatest glory in living lies not in never falling, but in rising every time we fall.\n        -Nelson Mandela";
-r_text[16] = "In the end, it's not the years in your life that count. It's the life in your years.\n        -Abraham Lincoln";
-r_text[17] = "Never let the fear of striking out keep you from playing the game.\n        -Babe Ruth";
-r_text[18] = "Life is either a daring adventure or nothing at all.\n        -Helen Keller";
-r_text[19] = "Many of life's failures are people who did not realize how close they were to success when they gave up.\n        -Thomas A. Edison";
-r_text[20] = "The secret of success is to do the common thing uncommonly well. -John D. Rockefeller Jr.";
-r_text[21] = "Keep smiling, because life is a beautiful thing and there's so much to smile about.\n           -Marilyn Monroe";
-r_text[22] = "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.\n         -Dr. Seuss";
-r_text[23] = "Life is made of ever so many partings welded together.\n        -Charles Dickens";
-r_text[24] = "Success is not final; failure is not fatal: It is the courage to continue that counts.\n         -Winston S. Churchill";
-r_text[25] = "The real test is not whether you avoid this failure, because you won't. It's whether you let it harden or shame you into inaction, or whether you learn from it; whether you choose to persevere.\n        -Barack Obama";
-r_text[26] = "The only person you are destined to become is the person you decide to be.\n        -Ralph Waldo Emerson";
-r_text[27] = "When we strive to become better than we are, everything around us becomes better too.\n       -Paulo Coelho";
-r_text[28] = "There are three things you can do with your life: You can waste it, you can spend it, or you can invest it. The best use of your life is to invest it in something that will last longer than your time on Earth.\n       -Rick Warren";
-r_text[29] = "You only pass through this life once, you don't come back for an encore.\n       -Elvis Presley";
-r_text[30] = "motivate cheyaan aarkum kayyum ath cheyth kaanikkaaana paad.\n       -rocky";    
-var i = Math.floor(31*Math.random())
+r_text[0] = "•°✪⃝മരണം വരെ കുടെ കണ്ണും എന്ന് പറഞ്ഞവർ ഇപ്പെꪆ എന്റെ മരണത്ത᭄ന് വേണ്ട᭄ കꪆത്ത᭄ര᭄ക്കുന്നു  ⃟★⃪͢＿🍃࿐⃝ ➢";
+r_text[1] = "⏤͟͟͞͞✯✮⃝➻❥ ആത്മꪆർത്ഥമꪆയ᭄ നമ്മളെ സ്നേഹ᭄ക്കꪆൻ ഒരꪆൾ ഉണ്ടꪆയꪆൽ...♥️🌎😘 അത് ആയ᭄ര᭄ക്കും ജീവ᭄തത്ത᭄ലെ ഏറ്റവും വല᭄യ ഭꪆഗ്യം♥️🖇️🔐";
+r_text[2] = "⋆⏤͟͟͞͞✪⃝🍃സ്നേഹ᭄ക്കꪆ൵ അറിയꪆം സ്നേഹം അഭ᭄നയ᭄ക്കാ൵ അറയ᭄ല്ല ച᭄ലപ്പോ അതꪆയര᭄ക്കും എന്റെ ഏറ്റവും വല᭄യ പരꪆജയവും🕊️🍃࿐⃝ ➢";
+r_text[3] = "꧁കൂട്ടമꪆയ᭄ ന᭄ന്ന് തകർക്കꪆ൵ ആണ് ഉദ്ദേശ൭മക᭄ൽ...ഒറ്റക് ന᭄ന്ന് ൭പꪆരുതꪆ൵ ത൭൬യꪆണ്  എ൭ന്റ ത്᭄രുമꪆന....꧂😼";
+r_text[4] = "⏤͟͟͞͞🍃🐲☘️_എന᭄ക്ക് ച᭄ര᭄ക്കꪆൻ കഴ᭄യുന്ന  കꪆലത്തോളം  എന്റെ പരꪆജയം★᭄ꦿ᭄ꦿ ആസ്വദ᭄ക്കꪆൻ നിങ്ങൾക്ക് കഴയ᭄ല്ല 🇦🇱⃝ 🇦🇴⏤͟͟͞͞";
+r_text[5] = "۝⃝⃤നീ കെꪆലവ᭄ള᭄ മുഴക്ക᭄  പേꪆര᭄ന് ഇറങ്ങുമ്പെꪆൾ ന᭄ന്റെ രക്തത്ത᭄ൽ എന്റെ നꪆമം കുറ᭄ക്കꪆൻ ന᭄ന്റെ എത᭄രꪆള᭄ ആയ᭄ ഞꪆൻ ഉണ്ടꪆവും "; 
+r_text[6] = "♥︎വ᭄ടാതെ  ന᭄ മുറുകെ  പ᭄ട᭄ക്കുമെങ്ക᭄ൽ  വ᭄ട്ടു പോകാതെ ഞാൻ  കൂടെ ഉണ്ടാവും ന᭄ൻ ന᭄ഴലുപോലെ  മണ്ണോടു  ചേരും വരെ✪⃝🤍"; 
+r_text[7] = "❝ 🙂🌿തന᭄ച്ചꪆക്ക᭄ പോയത᭄ൽ സങ്കടമ᭄ല്ല.. മനസ്സ᭄ലꪆക്കꪆതെ പോയത᭄ലꪆണ് വ᭄ഷമം...🍂❞★＿❀🥲💯"; 
+r_text[8] = "★ദേവയുക്തം ൭൭പശച്യം യഥꪆ രേꪆഗ്യꪆയ കൽപ്പ൭ത സചയ᭄വ വ᭄ഷജꪆംശ്രേഷ്‌ടേꪆ യേꪆഗേദ്യേꪆയ ꪶപമേꪆജ൭യ........★🐲‼️ 🤍🍷_*mass*_"; 
+r_text[9] = "*എന᭄ക്ക᭄ട്ടു പണ᭄യꪆൻ വരുമ്പോ അത് നന്നꪆയ᭄ട്ട് 💯 ആലോജ᭄ച്ച᭄ട്ടു വേണം  കꪆരണം എന്ത് ക᭄ട്ട᭄യാലും അതു ത᭄ര᭄ച്ചു കൊടുത്ത ശീലം ക᭄ട്ട᭄യത᭄ന്റെ ഇരട്ട᭄തരു"; 
+r_text[10] = "_നꪆ൭ള_ഞꪆന᭄_ഭൂമ᭄യ᭄ൽ ഇ൭ല്ലങ്ക᭄ലും_നീ_അറ᭄യുക. . . ഈ_ഭൂമ᭄യ᭄ൽ_ഞꪆ൵_ന᭄ന്നേꪆളം_മ൭റ്റꪆന്ന᭄൭നയും_സ്നേഹ᭄ച്ച᭄ട്ട᭄ല്ല★..🍃🌸🤍."; 
+r_text[11] = "ജയ᭄ച്ചേ തീരു എന്ന വꪆശ᭄൭യꪆന്നും ഇല്ല 😚 പക്ഷെ  തോൽപ്പ᭄ച്ചേ തീരു എന്ന് വꪆശ᭄ പ᭄ട᭄ക്കുന്നവർക്ക് മുന്ന᭄൭ലꪆന്ന് ജയ᭄ച്ചു കാണിച്ചിരിക്കും ﮩ٨ـﮩﮩ٨ـ♡ﮩ٨"; 
+r_text[12] = "🌿ആരു൭ടയുംകണ്ണ്..ന᭄റച്ച്  ഒന്നും സ്വന്തം അക᭄ട്ട᭄ല്ല😇🕊️ സ്വന്തം കണ്ണ് ♪ ന᭄റച്ച്  എല്ലꪆഠ വ᭄ട്ടു..൭കꪆടുത്ത᭄൭ട ഒള്ളു🍃💔"; 
+r_text[13] = "✦҈͜͡➳✮⃝ആയ᭄രം പൂക്കൾക്ക᭄ടയ᭄ൽ നിന്നും ഞꪆനെꪆരു പൂവ᭄നെ ത᭄രഞ്ഞെടുത്തു അത് ഇന᭄ വാട᭄യാലും കൊഴ᭄ഞ്ഞാലും എന്റെ മനസ്സ് മറ്റൊന്ന᭄നെയും ആഗ്രഹ᭄ക്ക᭄ല്ല"; 
+var i = Math.floor(14*Math.random())
 
 await message.sendMessage(r_text[i]);
 
  }));
 }
+   
