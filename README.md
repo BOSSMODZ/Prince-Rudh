@@ -6,7 +6,7 @@
 </p>
 <div align="center">
   <p align="center">
-<img src="PicsArt_01-31-02.24.25.jpg" alt="JPG"/>
+<img src="1643621173827.png" alt="JPG"/>
 </p>
  <p align="center">
 <a href="#"><img title="PrinceRudh" src="https://img.shields.io/badge/PrinceRudh-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
